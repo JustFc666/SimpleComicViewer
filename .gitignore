@@ -1,0 +1,29 @@
+# ===== Build artifacts (regenerable via PyInstaller + requirements.txt) =====
+dist/
+build/
+release/
+v13.5_important/
+
+# ===== Virtual environment (rebuild: pip install -r requirements.txt) =====
+buildenv/
+venv/
+.venv/
+
+# ===== Python cache =====
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== Logs =====
+*.log
+crash.log
+
+# ===== OS / editor junk =====
+.DS_Store
+Thumbs.db
+
+# ===== WorkBuddy session metadata =====
+.workbuddy/
+
+# ===== Runtime-generated reading history (created on first launch) =====
+reading_history.csv
